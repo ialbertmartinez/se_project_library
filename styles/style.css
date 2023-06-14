@@ -2,7 +2,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  /* outline: 1px red dotted; */
 }
 
 .page {
@@ -246,6 +245,7 @@
 
 .staff {
   padding: 100px 0 140px;
+  background-image: url("../images/staff_picks_background.jpg");
 }
 
 .staff__title {
@@ -253,6 +253,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: white;
 }
 
 .staff__subtitle {
@@ -261,6 +262,7 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: white;
 }
 
 .staff__list {
@@ -328,12 +330,10 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px auto 0;
+  margin: 100px 0 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 40px;
-  padding: 40px;
-  max-width: 1077px;
 }
 
 .step {
@@ -366,7 +366,7 @@
   box-sizing: border-box;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 120px;
 }
 
@@ -390,13 +390,15 @@
   z-index: 2;
 }
 
-.about__paragraph:first-of-type {
-  margin-top: 0;
+.about__paragraph {
+  margin: 0; /* Remove default browser style */
+  margin-bottom: 32px;
 }
 
 .about__paragraph:last-of-type {
   margin-bottom: 0;
 }
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -478,4 +480,5 @@
 
 .footer__copyright {
   margin-top: 108px;
+  margin-bottom: 0;
 }
