@@ -265,7 +265,7 @@
   color: white;
 }
 
-.staff__list {
+.staff__cards {
   max-width: 760px;
   margin: 68px auto 0;
   display: flex;
@@ -436,7 +436,8 @@
 }
 
 .footer__logo {
-  width: 120px;
+  width: 57px;
+  height: 80px;
 }
 
 .footer__list {
@@ -472,10 +473,8 @@
 }
 
 .footer__social-icon {
-  width: 100%;
+  width: 16px;
   height: 16px;
-  max-width: 16px;
-  min-width: 16px;
 }
 
 .footer__copyright {
