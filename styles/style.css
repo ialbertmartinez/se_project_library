@@ -32,8 +32,8 @@
 }
 
 .nav__logo {
-  width: 57px;
-  height: 80px;
+  width: 196;
+  height: 60px;
 }
 
 .nav__links {
@@ -59,8 +59,8 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  max-width: 601px;
-  margin: 128px 0 0;
+  max-width: 544px;
+  margin: 150px 0 0;
   color: #000000;
 }
 
